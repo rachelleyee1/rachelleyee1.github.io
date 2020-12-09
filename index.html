@@ -53,12 +53,13 @@
         analytics.track('destination submitted', user, function() {
         window.location.href = "";
         },
-                        {
-  context: {
-    protocols: {
-      event_version: 2
-    }
-  }    
+                        
+        {
+        context: {
+          protocols: {
+            event_version: 2
+          }
+        }    
         });
         
       }
